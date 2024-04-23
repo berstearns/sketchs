@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project-2024-04-13-20"
+version = "0.1.0"
+description = ""
+authors = ["bernardo stearns"]
+readme = "README.md"
+packages = [{include = "project_2024_04_13_20"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+mkdocs = "^1.5.3"
+mkdocstrings = "^0.24.3"
+mkdocstrings-python = "^1.9.2"
+mkdocs-material = "^9.5.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
